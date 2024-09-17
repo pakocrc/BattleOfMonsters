@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF3621A2C9A376900A9322F /* BattleOfMonstersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF362192C9A376900A9322F /* BattleOfMonstersApp.swift */; };
+		8AF3621C2C9A376900A9322F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3621B2C9A376900A9322F /* ContentView.swift */; };
+		8AF3621E2C9A376B00A9322F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3621D2C9A376B00A9322F /* Assets.xcassets */; };
+		8AF362212C9A376B00A9322F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF362202C9A376B00A9322F /* Preview Assets.xcassets */; };
+		8AF3622B2C9A376B00A9322F /* BattleOfMonstersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3622A2C9A376B00A9322F /* BattleOfMonstersTests.swift */; };
+		8AF362352C9A376B00A9322F /* BattleOfMonstersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF362342C9A376B00A9322F /* BattleOfMonstersUITests.swift */; };
+		8AF362372C9A376B00A9322F /* BattleOfMonstersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF362362C9A376B00A9322F /* BattleOfMonstersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AF362272C9A376B00A9322F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF3620E2C9A376900A9322F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF362152C9A376900A9322F;
+			remoteInfo = BattleOfMonsters;
+		};
+		8AF362312C9A376B00A9322F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF3620E2C9A376900A9322F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF362152C9A376900A9322F;
+			remoteInfo = BattleOfMonsters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AF362162C9A376900A9322F /* BattleOfMonsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleOfMonsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF362192C9A376900A9322F /* BattleOfMonstersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleOfMonstersApp.swift; sourceTree = "<group>"; };
+		8AF3621B2C9A376900A9322F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8AF3621D2C9A376B00A9322F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AF362202C9A376B00A9322F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8AF362262C9A376B00A9322F /* BattleOfMonstersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleOfMonstersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF3622A2C9A376B00A9322F /* BattleOfMonstersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleOfMonstersTests.swift; sourceTree = "<group>"; };
+		8AF362302C9A376B00A9322F /* BattleOfMonstersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleOfMonstersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF362342C9A376B00A9322F /* BattleOfMonstersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleOfMonstersUITests.swift; sourceTree = "<group>"; };
+		8AF362362C9A376B00A9322F /* BattleOfMonstersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleOfMonstersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AF362132C9A376900A9322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF362232C9A376B00A9322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF3622D2C9A376B00A9322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AF3620D2C9A376900A9322F = {
+			isa = PBXGroup;
+			children = (
+				8AF362182C9A376900A9322F /* BattleOfMonsters */,
+				8AF362292C9A376B00A9322F /* BattleOfMonstersTests */,
+				8AF362332C9A376B00A9322F /* BattleOfMonstersUITests */,
+				8AF362172C9A376900A9322F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF362172C9A376900A9322F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AF362162C9A376900A9322F /* BattleOfMonsters.app */,
+				8AF362262C9A376B00A9322F /* BattleOfMonstersTests.xctest */,
+				8AF362302C9A376B00A9322F /* BattleOfMonstersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AF362182C9A376900A9322F /* BattleOfMonsters */ = {
+			isa = PBXGroup;
+			children = (
+				8AF362192C9A376900A9322F /* BattleOfMonstersApp.swift */,
+				8AF3621B2C9A376900A9322F /* ContentView.swift */,
+				8AF3621D2C9A376B00A9322F /* Assets.xcassets */,
+				8AF3621F2C9A376B00A9322F /* Preview Content */,
+			);
+			path = BattleOfMonsters;
+			sourceTree = "<group>";
+		};
+		8AF3621F2C9A376B00A9322F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8AF362202C9A376B00A9322F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AF362292C9A376B00A9322F /* BattleOfMonstersTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AF3622A2C9A376B00A9322F /* BattleOfMonstersTests.swift */,
+			);
+			path = BattleOfMonstersTests;
+			sourceTree = "<group>";
+		};
+		8AF362332C9A376B00A9322F /* BattleOfMonstersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AF362342C9A376B00A9322F /* BattleOfMonstersUITests.swift */,
+				8AF362362C9A376B00A9322F /* BattleOfMonstersUITestsLaunchTests.swift */,
+			);
+			path = BattleOfMonstersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AF362152C9A376900A9322F /* BattleOfMonsters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF3623A2C9A376B00A9322F /* Build configuration list for PBXNativeTarget "BattleOfMonsters" */;
+			buildPhases = (
+				8AF362122C9A376900A9322F /* Sources */,
+				8AF362132C9A376900A9322F /* Frameworks */,
+				8AF362142C9A376900A9322F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleOfMonsters;
+			productName = BattleOfMonsters;
+			productReference = 8AF362162C9A376900A9322F /* BattleOfMonsters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AF362252C9A376B00A9322F /* BattleOfMonstersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF3623D2C9A376B00A9322F /* Build configuration list for PBXNativeTarget "BattleOfMonstersTests" */;
+			buildPhases = (
+				8AF362222C9A376B00A9322F /* Sources */,
+				8AF362232C9A376B00A9322F /* Frameworks */,
+				8AF362242C9A376B00A9322F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF362282C9A376B00A9322F /* PBXTargetDependency */,
+			);
+			name = BattleOfMonstersTests;
+			productName = BattleOfMonstersTests;
+			productReference = 8AF362262C9A376B00A9322F /* BattleOfMonstersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AF3622F2C9A376B00A9322F /* BattleOfMonstersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF362402C9A376B00A9322F /* Build configuration list for PBXNativeTarget "BattleOfMonstersUITests" */;
+			buildPhases = (
+				8AF3622C2C9A376B00A9322F /* Sources */,
+				8AF3622D2C9A376B00A9322F /* Frameworks */,
+				8AF3622E2C9A376B00A9322F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF362322C9A376B00A9322F /* PBXTargetDependency */,
+			);
+			name = BattleOfMonstersUITests;
+			productName = BattleOfMonstersUITests;
+			productReference = 8AF362302C9A376B00A9322F /* BattleOfMonstersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AF3620E2C9A376900A9322F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8AF362152C9A376900A9322F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8AF362252C9A376B00A9322F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8AF362152C9A376900A9322F;
+					};
+					8AF3622F2C9A376B00A9322F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8AF362152C9A376900A9322F;
+					};
+				};
+			};
+			buildConfigurationList = 8AF362112C9A376900A9322F /* Build configuration list for PBXProject "BattleOfMonsters" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AF3620D2C9A376900A9322F;
+			productRefGroup = 8AF362172C9A376900A9322F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AF362152C9A376900A9322F /* BattleOfMonsters */,
+				8AF362252C9A376B00A9322F /* BattleOfMonstersTests */,
+				8AF3622F2C9A376B00A9322F /* BattleOfMonstersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AF362142C9A376900A9322F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF362212C9A376B00A9322F /* Preview Assets.xcassets in Resources */,
+				8AF3621E2C9A376B00A9322F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF362242C9A376B00A9322F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF3622E2C9A376B00A9322F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AF362122C9A376900A9322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF3621C2C9A376900A9322F /* ContentView.swift in Sources */,
+				8AF3621A2C9A376900A9322F /* BattleOfMonstersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF362222C9A376B00A9322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF3622B2C9A376B00A9322F /* BattleOfMonstersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF3622C2C9A376B00A9322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF362372C9A376B00A9322F /* BattleOfMonstersUITestsLaunchTests.swift in Sources */,
+				8AF362352C9A376B00A9322F /* BattleOfMonstersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AF362282C9A376B00A9322F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AF362152C9A376900A9322F /* BattleOfMonsters */;
+			targetProxy = 8AF362272C9A376B00A9322F /* PBXContainerItemProxy */;
+		};
+		8AF362322C9A376B00A9322F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AF362152C9A376900A9322F /* BattleOfMonsters */;
+			targetProxy = 8AF362312C9A376B00A9322F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8AF362382C9A376B00A9322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AF362392C9A376B00A9322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AF3623B2C9A376B00A9322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BattleOfMonsters/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B334YL85T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.automata.BattleOfMonsters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AF3623C2C9A376B00A9322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BattleOfMonsters/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B334YL85T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.automata.BattleOfMonsters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AF3623E2C9A376B00A9322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9B334YL85T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.automata.BattleOfMonstersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleOfMonsters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BattleOfMonsters";
+			};
+			name = Debug;
+		};
+		8AF3623F2C9A376B00A9322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9B334YL85T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.automata.BattleOfMonstersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleOfMonsters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BattleOfMonsters";
+			};
+			name = Release;
+		};
+		8AF362412C9A376B00A9322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9B334YL85T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.automata.BattleOfMonstersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BattleOfMonsters;
+			};
+			name = Debug;
+		};
+		8AF362422C9A376B00A9322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9B334YL85T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.automata.BattleOfMonstersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BattleOfMonsters;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AF362112C9A376900A9322F /* Build configuration list for PBXProject "BattleOfMonsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF362382C9A376B00A9322F /* Debug */,
+				8AF362392C9A376B00A9322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF3623A2C9A376B00A9322F /* Build configuration list for PBXNativeTarget "BattleOfMonsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF3623B2C9A376B00A9322F /* Debug */,
+				8AF3623C2C9A376B00A9322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF3623D2C9A376B00A9322F /* Build configuration list for PBXNativeTarget "BattleOfMonstersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF3623E2C9A376B00A9322F /* Debug */,
+				8AF3623F2C9A376B00A9322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF362402C9A376B00A9322F /* Build configuration list for PBXNativeTarget "BattleOfMonstersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF362412C9A376B00A9322F /* Debug */,
+				8AF362422C9A376B00A9322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AF3620E2C9A376900A9322F /* Project object */;
+}

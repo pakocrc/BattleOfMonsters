@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct BattleOfMonstersApp: App {
+    let store = AppStore(initialState: AppState(), reducer: AppReducer)
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(store)
         }
     }
 }

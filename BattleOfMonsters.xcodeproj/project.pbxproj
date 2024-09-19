@@ -7,8 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AADBEBA2C9B5D8E00543BCD /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEB92C9B5D8E00543BCD /* AppState.swift */; };
+		8AADBEBC2C9B5DBA00543BCD /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEBB2C9B5DBA00543BCD /* Monster.swift */; };
+		8AADBEBE2C9B5DF400543BCD /* AppActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEBD2C9B5DF400543BCD /* AppActions.swift */; };
+		8AADBEC02C9B5E3900543BCD /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEBF2C9B5E3900543BCD /* AppReducer.swift */; };
+		8AADBEC22C9B5F1400543BCD /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEC12C9B5F1400543BCD /* AppStore.swift */; };
+		8AADBEC42C9B655700543BCD /* ScreenTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEC32C9B655700543BCD /* ScreenTitleView.swift */; };
+		8AADBEC62C9B67BF00543BCD /* MonstersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEC52C9B67BF00543BCD /* MonstersListView.swift */; };
+		8AADBECA2C9B685600543BCD /* MonsterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEC92C9B685600543BCD /* MonsterList.swift */; };
+		8AADBECD2C9B69A100543BCD /* Bundle+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBECC2C9B69A100543BCD /* Bundle+Decode.swift */; };
+		8AADBECF2C9B6A2A00543BCD /* monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AADBECE2C9B6A2A00543BCD /* monsters.json */; };
+		8AADBED22C9B6A9700543BCD /* MonsterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBED12C9B6A9700543BCD /* MonsterCardView.swift */; };
+		8AADBED42C9B71DA00543BCD /* MonstersBattleCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBED32C9B71DA00543BCD /* MonstersBattleCardListView.swift */; };
+		8AADBED62C9B725E00543BCD /* MonsterBattleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBED52C9B725E00543BCD /* MonsterBattleCardView.swift */; };
+		8AADBED82C9B746000543BCD /* MonsterBattleCardAbilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBED72C9B746000543BCD /* MonsterBattleCardAbilitiesView.swift */; };
+		8AADBEDA2C9B7EF200543BCD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBED92C9B7EF200543BCD /* ButtonView.swift */; };
+		8AADBEDE2C9B92F200543BCD /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEDD2C9B92F200543BCD /* NetworkClient.swift */; };
+		8AADBEE02C9B94A800543BCD /* URLProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEDF2C9B94A800543BCD /* URLProtocolMock.swift */; };
+		8AADBEE22C9B97EE00543BCD /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEE12C9B97EE00543BCD /* ApiResponse.swift */; };
+		8AADBEE42C9BA2D900543BCD /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AADBEE32C9BA2D900543BCD /* Battle.swift */; };
 		8AF3621A2C9A376900A9322F /* BattleOfMonstersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF362192C9A376900A9322F /* BattleOfMonstersApp.swift */; };
-		8AF3621C2C9A376900A9322F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3621B2C9A376900A9322F /* ContentView.swift */; };
+		8AF3621C2C9A376900A9322F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3621B2C9A376900A9322F /* HomeView.swift */; };
 		8AF3621E2C9A376B00A9322F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3621D2C9A376B00A9322F /* Assets.xcassets */; };
 		8AF362212C9A376B00A9322F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF362202C9A376B00A9322F /* Preview Assets.xcassets */; };
 		8AF3622B2C9A376B00A9322F /* BattleOfMonstersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3622A2C9A376B00A9322F /* BattleOfMonstersTests.swift */; };
@@ -34,9 +53,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8AADBEB92C9B5D8E00543BCD /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8AADBEBB2C9B5DBA00543BCD /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		8AADBEBD2C9B5DF400543BCD /* AppActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppActions.swift; sourceTree = "<group>"; };
+		8AADBEBF2C9B5E3900543BCD /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		8AADBEC12C9B5F1400543BCD /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		8AADBEC32C9B655700543BCD /* ScreenTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTitleView.swift; sourceTree = "<group>"; };
+		8AADBEC52C9B67BF00543BCD /* MonstersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersListView.swift; sourceTree = "<group>"; };
+		8AADBEC92C9B685600543BCD /* MonsterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterList.swift; sourceTree = "<group>"; };
+		8AADBECC2C9B69A100543BCD /* Bundle+Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decode.swift"; sourceTree = "<group>"; };
+		8AADBECE2C9B6A2A00543BCD /* monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsters.json; sourceTree = "<group>"; };
+		8AADBED12C9B6A9700543BCD /* MonsterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardView.swift; sourceTree = "<group>"; };
+		8AADBED32C9B71DA00543BCD /* MonstersBattleCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersBattleCardListView.swift; sourceTree = "<group>"; };
+		8AADBED52C9B725E00543BCD /* MonsterBattleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBattleCardView.swift; sourceTree = "<group>"; };
+		8AADBED72C9B746000543BCD /* MonsterBattleCardAbilitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBattleCardAbilitiesView.swift; sourceTree = "<group>"; };
+		8AADBED92C9B7EF200543BCD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		8AADBEDD2C9B92F200543BCD /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		8AADBEDF2C9B94A800543BCD /* URLProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolMock.swift; sourceTree = "<group>"; };
+		8AADBEE12C9B97EE00543BCD /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		8AADBEE32C9BA2D900543BCD /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
 		8AF362162C9A376900A9322F /* BattleOfMonsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleOfMonsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF362192C9A376900A9322F /* BattleOfMonstersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleOfMonstersApp.swift; sourceTree = "<group>"; };
-		8AF3621B2C9A376900A9322F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8AF3621B2C9A376900A9322F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8AF3621D2C9A376B00A9322F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AF362202C9A376B00A9322F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8AF362262C9A376B00A9322F /* BattleOfMonstersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleOfMonstersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +109,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AADBEB42C9B5D0800543BCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AF3621B2C9A376900A9322F /* HomeView.swift */,
+				8AADBEC32C9B655700543BCD /* ScreenTitleView.swift */,
+				8AADBEC52C9B67BF00543BCD /* MonstersListView.swift */,
+				8AADBED12C9B6A9700543BCD /* MonsterCardView.swift */,
+				8AADBED32C9B71DA00543BCD /* MonstersBattleCardListView.swift */,
+				8AADBED52C9B725E00543BCD /* MonsterBattleCardView.swift */,
+				8AADBED72C9B746000543BCD /* MonsterBattleCardAbilitiesView.swift */,
+				8AADBED92C9B7EF200543BCD /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8AADBEB52C9B5D0E00543BCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AADBEB82C9B5D7600543BCD /* State */,
+				8AADBEB72C9B5D6800543BCD /* Data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AADBEB62C9B5D1C00543BCD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8AF362192C9A376900A9322F /* BattleOfMonstersApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8AADBEB72C9B5D6800543BCD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8AADBED02C9B6A5900543BCD /* Mocks */,
+				8AADBEBB2C9B5DBA00543BCD /* Monster.swift */,
+				8AADBEE12C9B97EE00543BCD /* ApiResponse.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8AADBEB82C9B5D7600543BCD /* State */ = {
+			isa = PBXGroup;
+			children = (
+				8AADBEB92C9B5D8E00543BCD /* AppState.swift */,
+				8AADBEBD2C9B5DF400543BCD /* AppActions.swift */,
+				8AADBEBF2C9B5E3900543BCD /* AppReducer.swift */,
+				8AADBEC12C9B5F1400543BCD /* AppStore.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		8AADBECB2C9B699100543BCD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8AADBECC2C9B69A100543BCD /* Bundle+Decode.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8AADBED02C9B6A5900543BCD /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8AADBECE2C9B6A2A00543BCD /* monsters.json */,
+				8AADBEC92C9B685600543BCD /* MonsterList.swift */,
+				8AADBEE32C9BA2D900543BCD /* Battle.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		8AADBEDB2C9B92CE00543BCD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8AADBEDC2C9B92D700543BCD /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8AADBEDC2C9B92D700543BCD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8AADBEDD2C9B92F200543BCD /* NetworkClient.swift */,
+				8AADBEDF2C9B94A800543BCD /* URLProtocolMock.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		8AF3620D2C9A376900A9322F = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +220,11 @@
 		8AF362182C9A376900A9322F /* BattleOfMonsters */ = {
 			isa = PBXGroup;
 			children = (
-				8AF362192C9A376900A9322F /* BattleOfMonstersApp.swift */,
-				8AF3621B2C9A376900A9322F /* ContentView.swift */,
+				8AADBEDB2C9B92CE00543BCD /* Services */,
+				8AADBECB2C9B699100543BCD /* Extensions */,
+				8AADBEB62C9B5D1C00543BCD /* App */,
+				8AADBEB52C9B5D0E00543BCD /* Model */,
+				8AADBEB42C9B5D0800543BCD /* Views */,
 				8AF3621D2C9A376B00A9322F /* Assets.xcassets */,
 				8AF3621F2C9A376B00A9322F /* Preview Content */,
 			);
@@ -231,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AADBECF2C9B6A2A00543BCD /* monsters.json in Resources */,
 				8AF362212C9A376B00A9322F /* Preview Assets.xcassets in Resources */,
 				8AF3621E2C9A376B00A9322F /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +387,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AF3621C2C9A376900A9322F /* ContentView.swift in Sources */,
+				8AADBEC02C9B5E3900543BCD /* AppReducer.swift in Sources */,
+				8AADBEE02C9B94A800543BCD /* URLProtocolMock.swift in Sources */,
+				8AADBED22C9B6A9700543BCD /* MonsterCardView.swift in Sources */,
+				8AADBEE42C9BA2D900543BCD /* Battle.swift in Sources */,
+				8AADBEDA2C9B7EF200543BCD /* ButtonView.swift in Sources */,
+				8AADBEBE2C9B5DF400543BCD /* AppActions.swift in Sources */,
+				8AADBECD2C9B69A100543BCD /* Bundle+Decode.swift in Sources */,
+				8AADBEBC2C9B5DBA00543BCD /* Monster.swift in Sources */,
+				8AADBED82C9B746000543BCD /* MonsterBattleCardAbilitiesView.swift in Sources */,
+				8AADBEC62C9B67BF00543BCD /* MonstersListView.swift in Sources */,
+				8AADBEDE2C9B92F200543BCD /* NetworkClient.swift in Sources */,
+				8AADBEE22C9B97EE00543BCD /* ApiResponse.swift in Sources */,
+				8AADBED42C9B71DA00543BCD /* MonstersBattleCardListView.swift in Sources */,
+				8AF3621C2C9A376900A9322F /* HomeView.swift in Sources */,
 				8AF3621A2C9A376900A9322F /* BattleOfMonstersApp.swift in Sources */,
+				8AADBEC42C9B655700543BCD /* ScreenTitleView.swift in Sources */,
+				8AADBEC22C9B5F1400543BCD /* AppStore.swift in Sources */,
+				8AADBECA2C9B685600543BCD /* MonsterList.swift in Sources */,
+				8AADBEBA2C9B5D8E00543BCD /* AppState.swift in Sources */,
+				8AADBED62C9B725E00543BCD /* MonsterBattleCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
